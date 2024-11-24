@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang web cá nhân</title>
+    <style>
+        
+         body {
+            font-family: Arial, sans-serif;
+            margin: 0;   padding: 0;
+            background-color: #f0f8ff;
+            color: #333;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 20px;
+            margin: 10px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            color: #333;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Chào mừng đến với trang web của tôi</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#gioi-thieu">Giới thiệu bản thân</a></li>
+            <li><a href="#ke-hoach-hoc-tap">Kế hoạch học tập</a></li>
+            <li><a href="#so-thich">Sở thích</a></li>
+            <li><a href="#lien-he">Liên hệ</a></li>
+        </ul>
+    </nav>
+    <section id="gioi-thieu">
+        <h2>Giới thiệu bản thân</h2>
+        <p><strong>Họ tên:</strong> Ngô Huỳnh Anh Quốc</p>
+        <p><strong>Tuổi:</strong> 18</p>
+        <p><strong>Ngày sinh:</strong> 01/01/2006</p>
+        <p><strong>Điện thoại:</strong> 0386720824</p>
+        <p><strong>Địa chỉ:</strong> 19Trung Lang ,Phường 12,Quận Tân Bình,TP. HCM</p>
+        <p><strong>Email:</strong>5001104129@student.hcmue.edu.vn</p>
+    </section>
+    <section id="ke-hoach-hoc-tap">
+        <h2>Kế hoạch học tập</h2>
+        <p>Mục tiêu học tập của tôi là đạt được điểm số cao trong các môn học về lập trình và khoa học máy tính</p>
+        <ul>
+            <li>Hoàn thành khóa học tại Trường Sư Phạm TPHCM</li>
+            <li>Tham gia các dự án đề tài nghiên cứu khoa học.</li>
+            <li>Cố gắng hoàn thành chỉ tiêu để ra trường.</li>
+        </ul>
+    </section>
+    <section id="so-thich">
+        <h2>Sở thích của tôi</h2>
+        <p>Tôi thích đọc sách, đặc biệt là về công nghệ và phát triển bản thân. Ngoài ra, tôi còn yêu thích chơi cờ vua, chơi thể thao và tham gia các hoạt động ngoài trời.</p>
+        <ul>
+            <li>Đọc sách về công nghệ và lập trình.</li>
+            <li>Chơi thể thao: tennis, bóng đá.</li>
+            <li>Du lịch và khám phá các địa điểm mới.</li>
+        </ul>
+    </section>
+    <section id="lien-he">
+        <h2>Liên hệ với tôi</h2>
+        <form action="mailto:nguyen@domain.com" method="post" enctype="text/plain">
+            <label for="name">Họ tên:</label><br>
+            <input type="text" id="name" name="name"><br><br>
+            
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+            
+            <label for="message">Nội dung:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+            
+            <input type="submit" value="Gửi">
+        </form>
+        <h3>Bản đồ vị trí của tôi</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3834.6453603613777!2d108.2210202136569!3d14.058306557748832!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3141b46cc8e0f913%3A0x93e6b3a922c4c5cf!2zVGFuIFRoYW5oIFNoYW5oLCBRdXkgYmlkIE5oYW8gVGFuLCB2w6E!5e0!3m2!1svi!2s!4v1634340857178!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+        <p>Địa chỉ: <a href="https://maps.app.goo.gl/n1ScJz6mQFR1U2Rz5" target="_blank">19Trung Lang,Phường12,Tân Bình,TPHCM</a></p>
+    </section>
+</body>
+</html>
